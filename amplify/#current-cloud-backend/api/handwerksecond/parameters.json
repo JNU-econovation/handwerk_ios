@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "handwerksecond",
+    "schemaGraphql": "s3://handwerksecond-20190101230206-deployment/amplify-appsync-files/schema.graphql.1546351928177",
+    "ResolverBucket": "handwerksecond-20190101230206-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1546351928177"
+}

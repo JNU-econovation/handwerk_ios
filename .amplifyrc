@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "handwerksecond-20190101230206-authRole",
+            "UnauthRoleArn": "arn:aws:iam::371089849349:role/handwerksecond-20190101230206-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::371089849349:role/handwerksecond-20190101230206-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "handwerksecond-20190101230206-deployment",
+            "UnauthRoleName": "handwerksecond-20190101230206-unauthRole",
+            "StackName": "handwerksecond-20190101230206",
+            "StackId": "arn:aws:cloudformation:us-east-1:371089849349:stack/handwerksecond-20190101230206/d3a25a00-0dcd-11e9-8bd9-0e1ffe4de6a4"
+        }
+    }
+}

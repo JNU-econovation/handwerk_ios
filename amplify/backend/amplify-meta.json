@@ -1,0 +1,53 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "handwerksecond-20190101230206-authRole",
+			"UnauthRoleArn": "arn:aws:iam::371089849349:role/handwerksecond-20190101230206-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::371089849349:role/handwerksecond-20190101230206-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "handwerksecond-20190101230206-deployment",
+			"UnauthRoleName": "handwerksecond-20190101230206-unauthRole",
+			"StackName": "handwerksecond-20190101230206",
+			"StackId": "arn:aws:cloudformation:us-east-1:371089849349:stack/handwerksecond-20190101230206/d3a25a00-0dcd-11e9-8bd9-0e1ffe4de6a4"
+		}
+	},
+	"api": {
+		"handwerksecond": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "nursf5eyfbdgrfogxbo6t335hu",
+				"GraphQLAPIEndpointOutput": "https://7gyc47w3iza2bdf3mntxciidna.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-l4w64qo2yjco3ioc7x437ts5f4"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/handwerksecond-20190101230206-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apihandwerksecond"
+			},
+			"lastPushTimeStamp": "2019-01-01T14:42:02.323Z",
+			"lastPushDirHash": "yl5ptn5JjFhK5d9c7RPiSHLp7zI="
+		}
+	},
+	"auth": {
+		"cognitod88a443b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/handwerksecond-20190101230206-deployment/amplify-cfn-templates/auth/cognitod88a443b-cloudformation-template.yml",
+				"logicalId": "authcognitod88a443b"
+			},
+			"lastPushTimeStamp": "2019-01-01T14:42:02.326Z",
+			"output": {
+				"AppClientSecret": "1jk6s0ge6qruqdekqr313h1sd8j98upd283ema2mcuu2j6qe1l4j",
+				"UserPoolId": "us-east-1_iaHj0qyjk",
+				"AppClientIDWeb": "5fsp0nev4atjrv8iissbe5ngk9",
+				"AppClientID": "4jhja8m7u9depre6hqqcb6rgrg",
+				"IdentityPoolId": "us-east-1:36635602-b63a-44ce-8f1b-58fd07faad74",
+				"IdentityPoolName": "cognitod88a443b_identitypool_d88a443b",
+				"UserPoolName": "cognitod88a443b_userpool_d88a443b"
+			},
+			"lastPushDirHash": "TG2fSlSVZQYkfVLMseyTCaMHTpA="
+		}
+	}
+}
